@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/yongjae-jo-9ea7c0/Minitalk-damian/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: typescript-client
+    output: ./generated/prisma-client/
